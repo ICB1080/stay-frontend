@@ -1,4 +1,5 @@
-const domain = "http://localhost:8080";
+// const domain = "http://localhost:8080";
+const domain = "";
 // using a utils.js to fetch data from backend 
 // can make our code clean in component
 
