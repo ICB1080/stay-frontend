@@ -32,7 +32,7 @@ export const login = (credential, asHost) => {
 };
 
 export const register = (credential, asHost) => {
-    const registerUrl = `${domain}/register/${asHost ? "host" : "guest"}`;
+    const registerUrl = `${domain}/signup/${asHost ? "host" : "guest"}`;
     return fetch(registerUrl, {
         method: "POST",
         headers: {
